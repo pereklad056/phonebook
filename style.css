@@ -1,0 +1,76 @@
+header, #tabs {
+   width: 60%;
+   padding: 2em;
+}
+
+header {
+   background-color: #007fff;
+   color: #fff;
+}
+
+.left, .right {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.left a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.right  {
+  float: right;
+}
+
+/*#publicPhonebookTab:visited {
+  color: white;
+  background-color: orange;
+}*/
+
+.hide_view_details {
+  float: right;
+  /*margin-right: 2em;*/
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  color: orange;
+  text-align: left;
+}
+
+/*thead:first-child{
+  display:none;
+}*/
+
+td {
+  width: 33%;
+  padding: 1em 0;
+}
+
+  #tabs-2 {
+      margin-left: 10%;
+    }
+    #tabs-2 h3 {
+      color: orange;
+  }
+
+    input[type='password'] {
+      letter-spacing: 5px;
+  }
+
+    input {
+      border: 1px solid #e9e9e9;    
+  }
+
+    input[type='submit'] {
+      border: 1px solid #ffa5008c;
+      color: white;
+      background-color: orange;
+      margin-left: 40%;
+      padding: .2em 1.5em;
+  }
